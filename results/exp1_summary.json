@@ -1,0 +1,33 @@
+{
+  "n_stocks": 32,
+  "n_days": 2000,
+  "shift_day": 1000,
+  "window_sizes": [
+    5,
+    10,
+    21,
+    63
+  ],
+  "c": 0.001,
+  "K": 88,
+  "eta": {
+    "hedge": 0.31448630154778023,
+    "fixed_share": 0.31448630154778023
+  },
+  "alpha": {
+    "hedge": 0.0,
+    "fixed_share": 0.045454545454545456
+  },
+  "final_regret": {
+    "hedge": 1.7014362636995042,
+    "fixed_share": 1.8455328343964021
+  },
+  "weight_on_j5_post_shift_final": {
+    "hedge": 0.3074368640552769,
+    "fixed_share": 0.25172596953922427
+  },
+  "weight_on_j5_at_shift": {
+    "hedge": 0.246976177155355,
+    "fixed_share": 0.2501964071827216
+  }
+}

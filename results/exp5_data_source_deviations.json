@@ -1,0 +1,9 @@
+{
+  "skipped_tickers": [],
+  "non_massive_tickers": [
+    "SCHW",
+    "TT"
+  ],
+  "requested": 318,
+  "loaded": 318
+}

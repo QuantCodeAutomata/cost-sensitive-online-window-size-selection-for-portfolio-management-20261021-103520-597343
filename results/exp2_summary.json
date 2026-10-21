@@ -1,0 +1,74 @@
+{
+  "variant_a_varied_timing": {
+    "shift_day": 1500,
+    "window_sizes": [
+      5,
+      10,
+      21,
+      63
+    ],
+    "K": 88,
+    "eta": {
+      "hedge": 0.03764826608975846,
+      "fixed_share": 0.03764826608975846
+    },
+    "alpha": {
+      "hedge": 0.0,
+      "fixed_share": 0.045454545454545456
+    },
+    "final_regret": {
+      "hedge": 1.598205713095588,
+      "fixed_share": 1.6056188056938652
+    },
+    "weight_on_shortest_window_post_shift_final": {
+      "hedge": 0.25290539897739256,
+      "fixed_share": 0.2502065258269204
+    },
+    "weight_on_shortest_window_at_shift": {
+      "hedge": 0.24916281232407778,
+      "fixed_share": 0.24997474389626145
+    },
+    "weight_on_longest_window_pre_shift_mean": {
+      "hedge": 0.24827288327464475,
+      "fixed_share": 0.24993927273839558
+    }
+  },
+  "variant_b_expanded_experts": {
+    "shift_day": 1000,
+    "window_sizes": [
+      5,
+      10,
+      21,
+      30,
+      41,
+      50,
+      63,
+      126
+    ],
+    "K": 86,
+    "eta": {
+      "hedge": 0.046881093786924205,
+      "fixed_share": 0.046881093786924205
+    },
+    "alpha": {
+      "hedge": 0.0,
+      "fixed_share": 0.04591564335290977
+    },
+    "final_regret": {
+      "hedge": 2.474812306564596,
+      "fixed_share": 2.5048142152591084
+    },
+    "weight_on_shortest_window_post_shift_final": {
+      "hedge": 0.13335739137925207,
+      "fixed_share": 0.12514757830423148
+    },
+    "weight_on_shortest_window_at_shift": {
+      "hedge": 0.12512854784353342,
+      "fixed_share": 0.12502834951467837
+    },
+    "weight_on_longest_window_pre_shift_mean": {
+      "hedge": 0.124592216953866,
+      "fixed_share": 0.12496590979546604
+    }
+  }
+}
